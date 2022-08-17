@@ -5,8 +5,8 @@ body{
   }
   .contenedor{
     margin: auto;
-    width: 960px;
-    height: 650px;
+    width: 1000px;
+    height: 800px;
     padding: 5px;
   }
   
@@ -71,7 +71,8 @@ body{
   }
 
   p{
-    margin-left: 5%;
+    margin-top: 10px;
+    margin-left: 30%;
     font-style: italic;
   }
 
@@ -125,7 +126,6 @@ body{
   }
 
   .titulo{
-   
     margin-left: 15%;
     text-align: left;
   }
@@ -142,31 +142,30 @@ body{
     border: none;
     font-size: 15px;
   }
-  
+
   .footer-texto{ 
     font-weight: 900;
     font-size: 12px;
+    
 }
 
   .container-link{
-    display: flex;
-    align-items: center;
-
+    display: block;
+    align-items:center;
+    justify-content: flex-start;
 }
 
 .link{
     color: black;
     font-weight: 900;
     text-decoration: none;
-    font-size: 12px;  
+    font-size: 20px;   
 }
+
 .link:hover{
-    color: var(--azul);
-    font-size: 13px; 
+    font-size: 30px; 
 }
-.hiden{
-    display: none;
-}
+
 
 @media screen and (max-width:480px){/*max-width en un media query aplica estilos definidos en un determinado ancho de pantalla. 
   Este ancho de pantalla parte desde 0 hasta lo que se haya colocado en max-width.
