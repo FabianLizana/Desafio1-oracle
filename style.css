@@ -28,7 +28,7 @@ body{
     width: 70%;
     height: 50%;
     border-radius: 24px;
-    border: 1px solid var(--azul);
+    
     box-shadow: 9px 9px 8px -6px rgba(0,0,0,0.49);
   }
   
@@ -50,17 +50,31 @@ body{
     margin-left: 15%;
     color: white;
   }
+
+  #boton1:hover{
+    border-color: #f90303;
+    font-size: 20px;
+  }
+
   #boton2{
     padding: 24px;
     width: 30%;
     height: 60%;
-    background: #849dbe;
+    background: #dfdbd1;
     border-radius: 24px;
     margin-left: 10%;
   }
+
+  #boton2:hover{
+    border-color: #0b03f9;
+    font-size: 20px;
+  }
+
   p{
     margin-left: 5%;
+    font-style: italic;
   }
+
   .cuadroDerecha{
     float: right;
     text-align: center;
@@ -94,18 +108,26 @@ body{
     background: #D8DFE8;
     border-radius: 24px;
   }
+
   .logo{
     width: 100%;
     float: left;
   }
+
   .logoImg{
-    margin-top: 1%;
-    float: inherit;
-    margin-left: 5%;
+   width: 150px;
+   height: 50px;
   }
+
+  .logoImg:hover{
+    width: 200px;
+    height: 50px;
+  }
+
   .titulo{
-    float: inherit;
+   
     margin-left: 15%;
+    text-align: left;
   }
   
   #texto2{
