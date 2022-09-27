@@ -1,195 +1,201 @@
 body{
-    margin: 0px;
-    padding: 0px;
-    background: #fafbff;
-  }
-  .contenedor{
-    margin: auto;
-    width: 1000px;
-    height: 800px;
-    padding: 5px;
-  }
-  
-  .text-input{
-    float: left;
-    margin-left: 10%;
-    margin-top: 10%;
-    color: #4a81c4;
-    width: 80%;
-    height: 60%;
-    background: #fffefe;
-    outline: none;
-    border: none;
-    font-size: 20px;
-  }
-  
-  .izquierda{
-    float: left;
-    width: 70%;
-    height: 50%;
-    border-radius: 24px;
-    
-    box-shadow: 9px 9px 8px -6px rgba(0,0,0,0.49);
-  }
-  
-  .botones{
-    float: left;
-    width: 70%;
-    height: auto;
-    border-radius: 24px;
-   
-    
-  }
-  
-  #boton1{
-    padding: 24px;
-    width: 30%;
-    height: 60%;
-    background: #1a69ca;
-    border-radius: 24px;
-    margin-left: 15%;
-    color: white;
-  }
-
-  #boton1:hover{
-    border-color: #f90303;
-    font-size: 20px;
-  }
-
-  #boton2{
-    padding: 24px;
-    width: 30%;
-    height: 60%;
-    background: #dfdbd1;
-    border-radius: 24px;
-    margin-left: 10%;
-  }
-
-  #boton2:hover{
-    border-color: #0b03f9;
-    font-size: 20px;
-  }
-
-  p{
-    margin-top: 10px;
-    margin-left: 30%;
-    font-style: italic;
-  }
-
-  .cuadroDerecha{
-    float: right;
-    text-align: center;
-    border-radius: 24px;
-    width: 30%;
-    height: 80%;
-    border: 1px solid var(--azul);
-    box-shadow: 9px 9px 8px -6px rgba(0,0,0,0.49);
-  }
-  
-  #imgDerecha{
-    margin-top: 20%;
-    width: 90%;
-    height: auto;
-    left: 1032px;
-    top: 283px;
-  }
-
-  #texto #texto2{
-    margin-left: 5%;
-    margin-right: 5%;
-  }
-  
-  #copiar{
-    margin-left: 33%;
-    margin-top: 90%;
-    display: none;
-    padding: 24px;
-    width: 40%;
-    height: 10%;
-    background: #D8DFE8;
-    border-radius: 24px;
-  }
-
-  .logo{
-    width: 100%;
-    float: left;
-  }
-
-  .logoImg{
-   width: 150px;
-   height: 50px;
-  }
-
-  .logoImg:hover{
-    width: 200px;
-    height: 50px;
-  }
-
-  .titulo{
-    margin-left: 15%;
-    text-align: left;
-  }
-  
-  #texto2{
-    float: left;
-    margin-left: 10%;
-    margin-top: 10%;
-    color: #2b66ae;
-    width: 80%;
-    height: 10%;
-    background: #F3F5FC;
-    outline: none;
-    border: none;
-    font-size: 15px;
-  }
-
-  .footer-texto{ 
-    font-weight: 900;
-    font-size: 12px;
-    
+  margin: 0px;
+  padding: 0px;
+  background-image: linear-gradient(
+    115deg,
+    rgba(97, 230, 130, 0.093),
+    rgba(17, 10, 114, 0.192)
+  ), url(https://images2.alphacoders.com/100/thumb-1920-100680.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
-  .container-link{
-    display: block;
-    align-items:center;
-    justify-content: flex-start;
+.contenedor{
+  margin: auto;
+  width: 1000px;
+  height: 600px;
+  padding: 5px;
+}
+
+.logo{
+  width: 100%;
+}
+
+.logoImg{
+ width: 150px;
+ height: 50px;
+ mix-blend-mode: multiply;
+ margin-left: 831px;
+}
+
+.logoImg:hover{
+  width: 200px;
+  height: 50px;
+}
+
+.titulo{
+  text-align: center;
+  margin-right: 310px;
+}
+
+.cuadrado-izquierdo{
+  float: left;
+  width: 70%;
+  height:  334px;
+  border-radius: 24px;  
+  box-shadow: 9px 9px 8px -6px rgba(0,0,0,0.49);
+  background-color: #aaaac957;
+}
+
+.text-input{
+  margin-left: 10%;
+  margin-top: 8%;
+  color:white;
+  width: 80%;
+  height: 60%;
+  background: #a254542e;
+  outline: none;
+  border: none;
+  font-size: 20px; 
+}
+  
+.botones{
+  float: left;
+  width: 70%;
+  height: auto;   
+}
+  
+#boton1{
+  padding: 17px;
+  width: 28%;
+  height: auto;
+  background: #1a69ca;
+  border-radius: 35px;
+  margin-left: 15%;
+  color: white;
+}
+
+#boton1:hover{
+  border-color: #4819f293;
+  font-size: 15px;
+}
+
+#boton2{
+  padding: 17px;
+  width: 28%;
+  height: auto;
+  background: #dfdbd1;
+  border-radius: 24px;
+  margin-left: 10%;
+}
+
+#boton2:hover{
+  border-color: #f95103b1;
+  font-size: 15px;
+}
+
+p{
+  margin-top: 23px;
+  margin-left: 22%;
+  font-style: italic;
+}
+
+.cuadroDerecha{
+  float: right;
+  text-align: center;
+  border-radius: 24px;
+  width: 30%;
+  height: 77%;
+  box-shadow: 9px 9px 8px -6px rgba(0,0,0,0.49);
+  font-size: 10px;
+  background-color: #aaaac957;
+}
+
+  
+#imgDerecha{
+  filter: brightness(1.2);
+  mix-blend-mode: multiply;
+  width: 90%;
+  height: auto;
+}
+
+#texto #texto2{
+  margin-left: 5%;
+  margin-right: 5%;
+}
+  
+#copiar{
+  margin-left: 33%;
+  margin-top: 90%;
+  display: none;
+  padding: 24px;
+  width: 40%;
+  height: 10%;
+  background: #D8DFE8;
+  border-radius: 24px;
+}
+  
+#texto2{
+  margin-top: 10%;
+  color: #2b66ae;
+  width: 80%;
+  height: 10%;
+  background: #F3F5FC;
+  outline: none;
+  border: none;
+  
+}
+
+.footer {
+  width: auto;
+  height: auto;
+  background-color: #9cb099bf;
+  display: flex;
+}
+
+.footer h2{
+  margin-left: 100px;
+}
+
+.container-link{
+  margin-top: 15px;
+  margin-left: 9%;
+  font-style: italic;
 }
 
 .link{
-    color: black;
-    font-weight: 900;
-    text-decoration: none;
-    font-size: 20px;   
+  color: black;
+  font-weight: 900;
+  text-decoration: none;
+  font-size: 30px;   
 }
 
 .link:hover{
-    font-size: 30px; 
+  font-size: 50px; 
 }
-
-
 @media screen and (max-width:480px){/*max-width en un media query aplica estilos definidos en un determinado ancho de pantalla. 
   Este ancho de pantalla parte desde 0 hasta lo que se haya colocado en max-width.
    Pasado este ancho máximo todos los estilos que se hayan puesto dejan de aplicarse en la pantalla*/
   
-  .contenedor {
-    width: 100%;
-  }
-  .titulo{
-    width: 100%;
-  }
+.contenedor {
+  width: 100%;
+}
   
-  .botones{
-    width: 70%;
-    text-align: left;
-  }
+.titulo{
+  width: 100%;
+}
+  
+.botones{
+  width: 70%;
+  text-align: left;
+}
 
-  #texto {
-   width: 100%;
-   text-align: left;
-  }
+#texto {
+  width: 100%;
+  text-align: left;
+}
 
-  .cuadroDerecha{
-    width:30%;
-    
+.cuadroDerecha{
+  width:30%; 
   }
 }
