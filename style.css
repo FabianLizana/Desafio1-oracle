@@ -143,7 +143,6 @@ p{
   background: #F3F5FC;
   outline: none;
   border: none;
-  
 }
 
 .footer {
@@ -173,29 +172,85 @@ p{
 .link:hover{
   font-size: 50px; 
 }
-@media screen and (max-width:480px){/*max-width en un media query aplica estilos definidos en un determinado ancho de pantalla. 
-  Este ancho de pantalla parte desde 0 hasta lo que se haya colocado en max-width.
-   Pasado este ancho máximo todos los estilos que se hayan puesto dejan de aplicarse en la pantalla*/
-  
+
+/*comienzo de @media*/
+@media (360px <= width <= 768px){
+
+.logo {
+  width: 189%;
+  height: 61px;
+}  
+
+.logoImg {
+  margin-left: -14px;
+}
+
+body {
+  height: 575px;
+}
+
 .contenedor {
-  width: 100%;
+  margin: auto;
+  padding: 5px;
+  width: 341px;
+  height: auto;
 }
-  
-.titulo{
-  width: 100%;
+
+.cuadrado-izquierdo {
+  width: 57%;
+  height: 335px;
+  margin-top: 60px;
+} 
+
+.text-input {
+  height: 79%;
+  font-size: 13px;
 }
-  
-.botones{
+
+.cuadroDerecha {
+  width: 43%;
+  height: 83%;
+}
+
+#imgDerecha {
+  width: 116%;
+}
+
+.cuadroDerecha {
+  font-size: 8px;
+  height: 335px;
+  margin-top: 59px; 
+}
+
+#texto2 {
+  margin-top: 17%;
+  width: 85%;
+}
+
+.botones {
+  width: auto;
+}
+
+#boton1 {
   width: 70%;
-  text-align: left;
 }
 
-#texto {
-  width: 100%;
-  text-align: left;
+#boton2 {
+  width: 70%;
+  margin-top: 10px;
+  margin-left: 51px;
 }
 
-.cuadroDerecha{
-  width:30%; 
-  }
+.footer {
+  width: 102%;
+}
+
+.footer h2 {
+  display: none;
+}
+
+.container-link {
+  margin-left: 4%;
+}
+
 }
